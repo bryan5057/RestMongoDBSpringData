@@ -59,6 +59,9 @@ public class ApplicationTests {
 	@Test
 	public void shouldCreateEntity() throws Exception {
 		
+		// For bulk import, we could add a loop here that looped through records coming from DB2
+		// or a CSV file and used POST to create a new traveler for each record read
+		
 		String first = "Gern";
 		String last = "Rosewood";
 				
