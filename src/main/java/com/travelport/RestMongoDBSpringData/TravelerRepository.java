@@ -11,5 +11,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 public interface TravelerRepository extends MongoRepository<Traveler, String> {
 
 	List<Traveler> findByLastName(@Param("name") String name);
+	
+	List<Traveler> findByFirstNameAndLastName(@Param("firstName") String firstName, @Param("lastName") String lastName);
 
 }
