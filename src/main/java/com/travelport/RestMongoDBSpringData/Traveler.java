@@ -21,10 +21,10 @@ public class Traveler {
 	
 	private Set<Account> accounts = new HashSet<Account>();
 	
-	public Traveler(String firstName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-	}
+//	public Traveler(String firstName, String lastName) {
+//		this.firstName = firstName;
+//		this.lastName = lastName;
+//	}
 	
 	public String getFirstName() {
 		return firstName;
